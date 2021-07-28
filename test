@@ -1,0 +1,15 @@
+这是C语言求和
+
+int Add(int x ,int b)
+{
+   return x+y;
+}
+int main()
+{
+   int a =0;
+   int b=0;
+   scanf("%d%d",&a,&b);
+   int sum = Add(a,b);
+   printf("sum = %d\n",sum);
+   return 0;
+}
